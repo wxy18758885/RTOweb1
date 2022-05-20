@@ -1,0 +1,103 @@
+
+*{
+    font-family: Microsoft YaHei, Microsoft YaHei-Regular;
+    
+    font-weight: 500;
+}
+.t{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity:0.9;
+    
+}
+.top img{
+    width: 79px;
+    height: 90px;
+    margin-right: 2%;
+}
+.top{
+    list-style-type: none;
+    margin: 1% 5%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.top li{
+    display: inline-block;
+} 
+.top a{
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+    outline-width:10%;
+    outline-style: dashed;
+    outline-color: rgb(32, 143, 240);
+    color: rgb(43, 80, 112);
+}
+  
+
+.top a:hover {
+    box-shadow: #c5e5ed;
+    color: #ff583d;
+    
+}
+.active {
+    color: #ff3de5;
+    background-color: #c5e5ed;
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+
+
+.active {
+    color: #ff583d;
+    background-color: #c5e5ed;
+    background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+
+.bt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    font-size: 50px;
+    color: black;
+    
+}
+.nr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 10%;
+    font-size: 28px;
+    color: black;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d img{
+    width: 80%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.yj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yj i{
+    width: 1397px;
+    height: 1px;
+    border: 1px solid #1044c0;
+    
+}
+
+.yj p{
+    margin-right: 10px;
+    font-size: 19px;
+    color: #535b6e;
+    padding-left: 118px;
+}

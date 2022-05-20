@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/A.css">
+    <link rel="icon" type="image/x-icon" href="C:\Users\HUAWEI\Desktop\vscode\teacher\WEB2 Wendy\Web1\img\favicon.ico">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+    </style>
+    
+   
+</head>
+<body>
+    
+    <div class="t" >
+      <div class="top">
+        <img src="./img/logo.jpg" alt="">
+        <li><a href="https://wxy18758885.github.io/RTOweb1/"> Home</a></li>
+        <li><a href="https://wxy18758885.github.io/RTOweb2/">Course</a></li>
+        <li><a href=" https://wxy18758885.github.io/RTOweb3/">About Us</a></li>
+      </div>
+    </div> 
+    
+    <div class="w3-content w3-display-container">
+
+      <div class="w3-display-container mySlides">
+        <img src="./img/tu1.jpg" style="width:100%">
+        
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img src="./img/tu2.jpg" style="width:100%">
+        
+      </div>
+      
+      <div class="w3-display-container mySlides">
+        <img src="./img/tu3.jpg" style="width:100%">
+        
+      </div>
+      
+      
+      <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+      
+    </div>  
+    <script >
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+      showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+      }
+    </script>
+               
+    <h1 class="bt">
+      Apple education vision
+    </h1 >
+    <p class="nr">
+
+      The vision of Apple education is to enable everyone who needs growth opportunities to obtain the best quality educational resources and services and become a leading enterprise in China's education industry through continuous innovation and integration under the guidance of personalized education concept. The mission of Apple education is to make education move from art to science, integrate social higher quality, more efficient and more advanced educational resources through a powerful internet teaching management platform, configure personalized learning help plans and the most suitable teaching programs, and release the potential of each student to the greatest extent.
+    </p>
+    <h1 class="bt"> 
+      School value
+    </h1>
+    <p class="nr">
+      formulate the most suitable learning plan for each student, so that the student's performance can be improved in a short time.
+    </p>
+    <div class="d">
+      <img src="./img/d.jpg" alt="" >  
+    </div>
+              
+    <div class="yj">
+      <i></i>
+        
+      <p>class:20IT1&nbsp; &nbsp;  English name:Wendy &nbsp; &nbsp;   Pinyin name:Wang Xinyu</p>
+        
+    </div>  
+    
+</body>
+</html>
